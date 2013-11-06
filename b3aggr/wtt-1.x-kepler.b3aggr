@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Webtools for Tapestry (WTT) Update Site" buildRoot="build-webtools">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Webtools for Tapestry (WTT) Update Site" buildRoot="../target/b3/build-webtools">
   <validationSets label="Webtools for Tapestry (WTT) Update Site">
     <contributions label="Webtools for Tapestry (WTT) Update Site">
       <repositories location="http://eclipse.worldline.com/releases/kepler/webtools-tapestry/1.1.0/" mirrorArtifacts="false">
