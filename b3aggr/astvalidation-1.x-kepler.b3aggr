@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="AST Validation Framework Update Site" buildRoot="build-astvalidation">
+  <validationSets label="AST Validation Framework Update Site">
+    <contributions label="AST Validation Framework Update Sites">
+      <repositories location="http://eclipse.worldline.com/releases/kepler/jdt-ast-validation/1.1.0/" mirrorArtifacts="false">
+        <features name="net.atos.jdt.ast.validation.feature.feature.group" versionRange="1.1.0.v20131008-0730" categories="//@customCategories[identifier='AST%20Rules%20Validation%20Lite%20Engine']"/>
+        <features name="net.atos.jdt.ast.validation.sdk.feature.feature.group" versionRange="1.1.0.v20131008-0730" categories="//@customCategories[identifier='AST%20Rules%20Validation%20Lite%20Engine']"/>
+        <categories name="v20131008-0730.AST Rules Validation Lite Engine" versionRange="1.0.0.43-cKD_AF_kE7AIA77c37YI7" enabled="false"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <customCategories identifier="AST Rules Validation Lite Engine" label="AST Rules Validation Lite Engine" description="AST Rules Validation Lite Engine" features="//@validationSets[label='AST%20Validation%20Framework%20Update%20Site']/@contributions[label='AST%20Validation%20Framework%20Update%20Sites']/@repositories.0/@features.0 //@validationSets[label='AST%20Validation%20Framework%20Update%20Site']/@contributions[label='AST%20Validation%20Framework%20Update%20Sites']/@repositories.0/@features.1"/>
+</aggregator:Aggregation>

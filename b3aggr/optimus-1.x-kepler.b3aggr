@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Optimus Update Site" buildRoot="build-optimus">
+  <validationSets label="Optimus Update Site for Eclipse Kepler">
+    <contributions label="Optimus Versions Update Sites for Kepler">
+      <repositories location="http://eclipse.worldline.com/releases/kepler/optimus/1.0.0/" mirrorArtifacts="false">
+        <features name="net.atos.optimus.common.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus']"/>
+        <features name="net.atos.optimus.m2m.engine.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus']"/>
+        <features name="net.atos.optimus.m2m.javaxmi.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus']"/>
+        <features name="net.atos.optimus.m2t.java.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus']"/>
+        <features name="net.atos.optimus.m2t.merger.java.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus']"/>
+        <features name="net.atos.optimus.m2t.selector.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus']"/>
+        <features name="net.atos.optimus.t2m.java.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus']"/>
+        <features name="net.atos.optimus.common.source.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20Sources']"/>
+        <features name="net.atos.optimus.m2m.engine.source.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20Sources']"/>
+        <features name="net.atos.optimus.m2m.javaxmi.source.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20Sources']"/>
+        <features name="net.atos.optimus.m2t.java.source.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20Sources']"/>
+        <features name="net.atos.optimus.m2t.merger.java.source.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20Sources']"/>
+        <features name="net.atos.optimus.m2t.selector.source.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20Sources']"/>
+        <features name="net.atos.optimus.t2m.java.source.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20Sources']"/>
+        <features name="net.atos.optimus.m2m.engine.sdk.feature.feature.group" versionRange="1.0.0.v20131008-0800" categories="//@customCategories[identifier='Optimus%20SDK']"/>
+        <categories name="eclipse-optimus" versionRange="0.0.0.77--cKKIK07QCJXD4Cz-JXclAKiu" enabled="false"/>
+        <categories name="eclipse-optimus-sdk" versionRange="0.0.0.1--cKKIol3124191824670lfqmfs" enabled="false"/>
+        <categories name="eclipse-optimus-sources" versionRange="0.0.0.77--cKKJUE7QCJXD4D-HhbgAKiuR" enabled="false"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <customCategories identifier="Optimus" label="Optimus" description="Optimus" features="//@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.0 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.1 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.2 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.3 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.4 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.5 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.6"/>
+  <customCategories identifier="Optimus Sources" label="Optimus Sources" description="Optimus Sources" features="//@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.7 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.8 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.9 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.10 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.11 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.12 //@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.13"/>
+  <customCategories identifier="Optimus SDK" label="Optimus SDK" description="Optimus SDK" features="//@validationSets[label='Optimus%20Update%20Site%20for%20Eclipse%20Kepler']/@contributions[label='Optimus%20Versions%20Update%20Sites%20for%20Kepler']/@repositories.0/@features.14"/>
+</aggregator:Aggregation>
