@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GMF Properties Sections Framework Update Site" buildRoot="../target/b3/build-gmfproperties">
+  <validationSets label="GMF Properties Sections Framework Update Site">
+    <contributions label="GMF Properties Sections Framework Update Site">
+      <repositories location="http://eclipse.worldline.com/releases/kepler/gmf-propertiesviews/1.0.0" mirrorArtifacts="false">
+        <features name="com.worldline.gmf.propertysections.feature.feature.group" versionRange="1.0.0.v20131008-0700" categories="//@customCategories[identifier='GMF%20Properties%20Sections%20Framework']"/>
+        <features name="com.worldline.gmf.propertysections.source.feature.feature.group" versionRange="1.0.0.v20131008-0700" categories="//@customCategories[identifier='GMF%20Properties%20Sections%20Framework']"/>
+        <categories name="v20131008-0700.Default" versionRange="1.0.0.4--cLqftl_kE7AIA77c37Y77" enabled="false"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <customCategories identifier="GMF Properties Sections Framework" label="GMF Properties Sections Framework" description="GMF Properties Sections Framework" features="//@validationSets[label='GMF%20Properties%20Sections%20Framework%20Update%20Site']/@contributions[label='GMF%20Properties%20Sections%20Framework%20Update%20Site']/@repositories.0/@features.0 //@validationSets[label='GMF%20Properties%20Sections%20Framework%20Update%20Site']/@contributions[label='GMF%20Properties%20Sections%20Framework%20Update%20Site']/@repositories.0/@features.1"/>
+</aggregator:Aggregation>

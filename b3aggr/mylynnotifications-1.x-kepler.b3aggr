@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Mylyn Notifications System Update Site" buildRoot="../target/b3/build-mylynnotifications">
+  <validationSets label="Mylyn Notifications System Update Site">
+    <contributions label="Mylyn Notifications System Update Site">
+      <repositories location="http://eclipse.worldline.com/releases/kepler/mylyn-notifications/1.0.0" mirrorArtifacts="false">
+        <features name="com.worldline.mylyn.notifications.feature.feature.group" versionRange="1.0.0.v20131008-0700" categories="//@customCategories[identifier='Mylyn%20Notifications%20System']"/>
+        <categories name="v20131008-0700.Default" versionRange="1.0.0.2--cLuHs68s7359533I13G33" enabled="false"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <customCategories identifier="Mylyn Notifications System" label="Mylyn Notifications System" description="Mylyn Notifications System" features="//@validationSets[label='Mylyn%20Notifications%20System%20Update%20Site']/@contributions[label='Mylyn%20Notifications%20System%20Update%20Site']/@repositories.0/@features.0"/>
+</aggregator:Aggregation>

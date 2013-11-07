@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Resource Selector Update Site" buildRoot="../target/b3/build-resourceseselector">
+  <validationSets label="Resource Selector Update Site">
+    <contributions label="Resource Selector Update Site">
+      <repositories location="http://eclipse.worldline.com/releases/kepler/resourceselector/1.0.0" mirrorArtifacts="false">
+        <features name="org.eclipselabs.resourceselector.core.feature.group" versionRange="1.0.0.v20131008-0700" categories="//@customCategories[identifier='Resource%20Selector']"/>
+        <features name="org.eclipselabs.resourceselector.processor.java.feature.group" versionRange="1.0.0.v20131008-0700" categories="//@customCategories[identifier='Resource%20Selector']"/>
+        <features name="org.eclipselabs.resourceselector.processor.uml.feature.group" versionRange="1.0.0.v20131008-0700" categories="//@customCategories[identifier='Resource%20Selector']"/>
+        <categories name="v20131008-0700.Resource Selector" versionRange="1.0.0.6--cNRscbBcMAGSGAAw5AqAA" enabled="false"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <customCategories identifier="Resource Selector" label="Resource Selector" description="Resource Selector" features="//@validationSets[label='Resource%20Selector%20Update%20Site']/@contributions[label='Resource%20Selector%20Update%20Site']/@repositories.0/@features.0 //@validationSets[label='Resource%20Selector%20Update%20Site']/@contributions[label='Resource%20Selector%20Update%20Site']/@repositories.0/@features.1 //@validationSets[label='Resource%20Selector%20Update%20Site']/@contributions[label='Resource%20Selector%20Update%20Site']/@repositories.0/@features.2"/>
+</aggregator:Aggregation>
