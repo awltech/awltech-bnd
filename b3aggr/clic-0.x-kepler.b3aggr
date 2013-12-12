@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Clic Update Site" buildRoot="../target/b3/build-clic">
+  <validationSets label="Clic Update Site for Eclipse Kepler">
+    <contributions label="Clic Versions Update Sites for Kepler">
+      <repositories location="http://eclipse.worldline.com/releases/kepler/clic/0.1.0/" mirrorArtifacts="false">
+        <categories name="201311141032-kepler-final.CLiC" versionRange="1.0.0.01-cLrAnh77359555A53972WKgYKj2MScCX"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+</aggregator:Aggregation>
