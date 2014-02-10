@@ -2,34 +2,34 @@
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="AWLTech Global Snapshot Aggregator" buildRoot="../target/b3/build-global-snapshot">
   <validationSets label="AWLTech Single Update Sites" extends="//@validationSets[label='AWLTech%20Dependencies']">
     <contributions label="AWLTech Single Update Sites">
-      <repositories location="http://eclipse.worldline.com/nightly/appprofiles" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/appprofiles">
         <categories name="201312101124-kepler-SNAPSHOT.ApplicationProfiles" versionRange="1.0.0.2--cM2F6h773595753557A2WKgYKj1yoOsycqz0"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/jdt-ast-validation" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/jdt-ast-validation">
         <categories name="201312242333-kepler-SNAPSHOT.AST Rules Validation Lite Engine" versionRange="1.0.0.433cKD_AF7E7AIAEEMEIII62hM6hR4wbpkwEgz"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/clic" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/clic">
         <categories name="201312041306-kepler-SNAPSHOT.CLiC" versionRange="1.0.0.01-cLrAnh77359573A593E2WKgYKj1yoOsycqz0"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/gmf-propertiesviews" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/gmf-propertiesviews">
         <categories name="201311191415-kepler-SNAPSHOT.Default" versionRange="1.0.0.4-3cLqg367E7AIAAAgAMAQ62hM6hR4wbpkwEgz"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/mylyn-notifications" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/mylyn-notifications">
         <categories name="201311191423-kepler-SNAPSHOT.Default" versionRange="1.0.0.2-1cLuHs677359555K5A792WKgYKj1yoOsycqz0"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/optimus" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/optimus">
         <categories name="eclipse-optimus" versionRange="0.0.0.77--cKKIK07QCJXD4Cz-JXclAKiu"/>
         <categories name="eclipse-optimus-sdk" versionRange="0.0.0.1--cKKIol3124191824670lfqmfs"/>
         <categories name="eclipse-optimus-sources" versionRange="0.0.0.77--cKKJUE7QCJXD4D-HhbgAKiuR"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/parallelj-studio" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/parallelj-studio">
         <categories name="201311191434-kepler-final.ParallelJ Components" versionRange="1.0.0.787M-cMOAvE7UEMcMMNLMkckC6NkDNuBUtSu9"/>
         <categories name="201311191434-kepler-final.ParallelJ Studio" versionRange="1.0.0.25-cMNmbh77359555K5A9A2WKgYKj2MScCX"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/resourceselector" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/resourceselector">
         <categories name="201311191331-kepler-SNAPSHOT.Resource Selector" versionRange="1.0.0.6-5cNRscb7MAGSGGH0GSSG9a22g2_7uPDcttWy"/>
       </repositories>
-      <repositories location="http://eclipse.worldline.com/nightly/webtools-tapestry" mirrorArtifacts="false">
+      <repositories location="http://eclipse.worldline.com/nightly/webtools-tapestry">
         <categories name="201401231556-kepler-SNAPSHOT.Webtools for Tapestry (WTT)" versionRange="1.0.0.23-cKMNnh7735A35795CCE2WKgYKj1yoOsycqz0"/>
       </repositories>
     </contributions>
