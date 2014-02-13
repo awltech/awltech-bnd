@@ -15,8 +15,14 @@
   </validationSets>
   <validationSets label="AWLTech Dependencies">
     <contributions label="AWLTech Dependencies">
-      <repositories location="http://dist.springsource.org/release/AJDT/configurator"/>
-      <repositories location="http://download.eclipse.org/tools/ajdt/43/update"/>
+      <repositories location="http://dist.springsource.org/release/AJDT/configurator">
+        <categories name="file:/Users/andrew/Eclipse/git-repos/m2eclipse-ajdt/org.maven.ide.eclipse.ajdt.site/target/site/site.xml.org.eclipse.m2e.ajdt.feature" versionRange="1.0.0.07Q-cKfGSF7735937355993" enabled="false"/>
+      </repositories>
+      <repositories location="http://download.eclipse.org/tools/ajdt/43/update">
+        <categories name="org.eclipse.ajdt.org.eclipse.ajdt" versionRange="1.0.0.435cLUXvE8KA_v1wWkWOyW173593E7G13I33" enabled="false"/>
+        <categories name="org.eclipse.ajdt.org.eclipse.ajdt.source" versionRange="1.0.0.7D7O7McLUT6hA9cdtB1hNgQ3n9QDTSAkMq5AwAA" enabled="false"/>
+        <categories name="org.eclipse.ajdt.org.eclipse.ajdt.other" versionRange="1.0.0.7B7KCWcLa8db_SYW3I_IkU2BJAM_NI7UEY37c77" enabled="false"/>
+      </repositories>
     </contributions>
     <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
   </validationSets>
