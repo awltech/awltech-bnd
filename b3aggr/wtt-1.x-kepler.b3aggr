@@ -2,13 +2,16 @@
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Webtools for Tapestry (WTT) Update Site" buildRoot="../target/b3/build-webtools">
   <validationSets label="Webtools for Tapestry (WTT) Update Site">
     <contributions label="Webtools for Tapestry (WTT) Update Site">
-      <repositories location="http://eclipse.worldline.com/releases/kepler/webtools-tapestry/1.1.0/" mirrorArtifacts="false">
-        <features name="net.atos.webtools.tapestry.feature.group" versionRange="1.1.0.201310301250" categories="//@customCategories[identifier='Web%20Tools%20for%20Tapestry%20-%20WTT']"/>
-        <categories name="201310301250.Default" versionRange="1.0.0.21-cKMNnh77359539357C3" enabled="false"/>
+      <repositories location="http://eclipse.worldline.com/releases/kepler/webtools-tapestry/1.2.1/" mirrorArtifacts="false">
+        <features name="net.atos.webtools.tapestry.feature.group" versionRange="1.2.1.v20140217-0900" categories="//@customCategories[identifier='Web%20Tools%20for%20Tapestry%20-%20WTT']"/>
+        <categories name="v20140217-0900.Webtools for Tapestry (WTT)" versionRange="1.0.0.231cKMNnh8s735A375G13K33" enabled="false"/>
       </repositories>
       <repositories location="http://eclipse.worldline.com/releases/kepler/webtools-tapestry/1.1.1/" mirrorArtifacts="false">
         <features name="net.atos.webtools.tapestry.feature.group" versionRange="1.1.1.v20131211-1030" categories="//@customCategories[identifier='Web%20Tools%20for%20Tapestry%20-%20WTT']"/>
-        <categories name="e37x-final.WebTools for Tapestry (WTT)" versionRange="1.0.0.211cKMNnh8K9Hv2MScCX" enabled="false"/>
+        <categories name="v20131211-1030.WebTools for Tapestry (WTT)" versionRange="1.0.0.211cKMNnh8s7359575515393" enabled="false"/>
+      </repositories>
+      <repositories location="http://eclipse.worldline.com/releases/kepler/appprofiles" mirrorArtifacts="false">
+        <categories name="v20131017-0800.Application Profiles Wizard" versionRange="1.0.0.2--cM2F6h8s7359535G13I33" enabled="false"/>
       </repositories>
     </contributions>
     <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
@@ -17,5 +20,5 @@
   <configurations architecture="x86_64"/>
   <configurations operatingSystem="linux" windowSystem="gtk"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
-  <customCategories identifier="Web Tools for Tapestry - WTT" label="Web Tools for Tapestry - WTT" description="Web Tools for Tapestry - WTT" features="//@validationSets[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@contributions[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@repositories.0/@features.0 //@validationSets[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@contributions[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@repositories.1/@features.0"/>
+  <customCategories identifier="Web Tools for Tapestry - WTT" label="Web Tools for Tapestry - WTT" description="Web Tools for Tapestry - WTT" features="//@validationSets[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@contributions[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@repositories.1/@features.0 //@validationSets[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@contributions[label='Webtools%20for%20Tapestry%20(WTT)%20Update%20Site']/@repositories.0/@features.0"/>
 </aggregator:Aggregation>
