@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Application Profiles Wizard Update Site" buildRoot="../target/b3/build-appprofiles">
+  <validationSets label="Application Profiles Wizard Update Site">
+    <contributions label="Application Profiles Wizard Update Site">
+      <repositories location="http://eclipse.worldline.com/releases/kepler/appprofiles/1.0.0/" mirrorArtifacts="false">
+        <categories name="v20131017-0800.Application Profiles Wizard" versionRange="1.0.0.2--cM2F6h8s7359535G13I33"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/releases/kepler"/>
+  </validationSets>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+</aggregator:Aggregation>
