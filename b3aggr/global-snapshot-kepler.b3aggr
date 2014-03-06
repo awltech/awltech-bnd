@@ -2,8 +2,6 @@
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="AWLTech Global Snapshot Aggregator" buildRoot="../target/b3/build-global-snapshot">
   <validationSets label="AWLTech Single Update Sites" extends="//@validationSets[label='AWLTech%20Dependencies']">
     <contributions label="AWLTech Single Update Sites">
-      <repositories location="http://eclipse.worldline.com/nightly/appprofiles"/>
-      <repositories location="http://eclipse.worldline.com/nightly/jdt-ast-validation"/>
       <repositories location="http://eclipse.worldline.com/nightly/clic"/>
       <repositories location="http://eclipse.worldline.com/nightly/gmf-propertiesviews"/>
       <repositories location="http://eclipse.worldline.com/nightly/mylyn-notifications"/>
@@ -11,6 +9,8 @@
       <repositories location="http://eclipse.worldline.com/nightly/parallelj-studio"/>
       <repositories location="http://eclipse.worldline.com/nightly/resourceselector"/>
       <repositories location="http://eclipse.worldline.com/nightly/webtools-tapestry"/>
+      <repositories location="http://eclipse.worldline.com/nightly/appprofiles"/>
+      <repositories location="http://eclipse.worldline.com/nightly/jdt-ast-validation"/>
     </contributions>
   </validationSets>
   <validationSets label="AWLTech Dependencies">
