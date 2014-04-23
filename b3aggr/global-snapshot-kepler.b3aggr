@@ -11,6 +11,7 @@
       <repositories location="http://eclipse.worldline.com/nightly/webtools-tapestry"/>
       <repositories location="http://eclipse.worldline.com/nightly/appprofiles"/>
       <repositories location="http://eclipse.worldline.com/nightly/jdt-ast-validation"/>
+      <repositories location="http://eclipse.worldline.com/nightly/i18ntools"/>
     </contributions>
   </validationSets>
   <validationSets label="AWLTech Dependencies">
