@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="AWLTech Global Snapshot Aggregator" buildRoot="../target/b3/build-global-snapshot">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="AWLTech All Nightly Snapshots" buildRoot="../target/b3/build-global-snapshot">
   <validationSets label="AWLTech Single Update Sites" extends="//@validationSets[label='AWLTech%20Dependencies']">
     <contributions label="AWLTech Single Update Sites">
       <repositories location="http://eclipse.worldline.com/nightly/clic"/>
