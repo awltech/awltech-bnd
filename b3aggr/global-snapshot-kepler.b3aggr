@@ -6,7 +6,6 @@
       <repositories location="http://eclipse.worldline.com/nightly/gmf-propertiesviews"/>
       <repositories location="http://eclipse.worldline.com/nightly/mylyn-notifications"/>
       <repositories location="http://eclipse.worldline.com/nightly/optimus"/>
-      <repositories location="http://eclipse.worldline.com/nightly/optimus-diagrams"/>
       <repositories location="http://eclipse.worldline.com/nightly/parallelj-studio"/>
       <repositories location="http://eclipse.worldline.com/nightly/resourceselector"/>
       <repositories location="http://eclipse.worldline.com/nightly/webtools-tapestry"/>
