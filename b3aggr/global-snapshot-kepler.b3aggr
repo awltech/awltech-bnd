@@ -13,6 +13,7 @@
       <repositories location="http://eclipse.worldline.com/nightly/jdt-ast-validation"/>
       <repositories location="http://eclipse.worldline.com/nightly/i18ntools"/>
       <repositories location="http://eclipse.worldline.com/nightly/rcs4e"/>
+      <repositories location="http://eclipse.worldline.com/nightly/asciidoctools/"/>
     </contributions>
   </validationSets>
   <validationSets label="AWLTech Dependencies">
